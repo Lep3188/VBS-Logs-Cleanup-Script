@@ -1,0 +1,23 @@
+
+<?xml version='1.0'?>
+<confData>
+  <!-- Each cOnfiguration node is a folder from where you want to delete content -->
+    <Configuration>
+        <IsSubFoldersRequiredDeletion>False</IsSubFoldersRequiredDeletion> <!-- Want to delete content from subfolder? (True or False) -->
+        <MaxFileAge>1</MaxFileAge> <!-- Ammount of days to delete-->
+        <FolderPath>C:\Users\exampleuser\Documents\testdelete\</FolderPath> <!--Folder Path-->
+        <FileExtensionToDelete>TXT</FileExtensionToDelete> <!-- File extension to delete (upper case) -->
+    </Configuration>
+    <Configuration>
+        <IsSubFoldersRequiredDeletion>True</IsSubFoldersRequiredDeletion>
+        <MaxFileAge>1</MaxFileAge> <!-- In Days-->
+        <FolderPath>C:\Users\exampleuser\Documents\testdelete2\</FolderPath> 
+        <FileExtensionToDelete>LOG</FileExtensionToDelete>
+    </Configuration>
+    <Configuration>
+        <IsSubFoldersRequiredDeletion>True</IsSubFoldersRequiredDeletion>
+        <MaxFileAge>1</MaxFileAge>
+        <FolderPath>C:\Users\exampleuser\Documents\testdelete3\</FolderPath> 
+        <FileExtensionToDelete>TXT</FileExtensionToDelete>
+    </Configuration>
+</confData>
